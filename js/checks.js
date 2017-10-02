@@ -7,10 +7,11 @@ d3.tsv(DATA_URL, function(data){
     
     var check_area = container.append("div").classed("check-area", true);
 
-    var check_comparison = check_area.selectAll("check-comparison")
+    var check_comparison = check_area.selectAll(".check-comparison")
 	.data(data)
 	.enter()
-	.append("div");
+	.append("div")
+	.classed("check-comparison", true);
 
     check_comparison.append("h5")
 	.text(function(d){

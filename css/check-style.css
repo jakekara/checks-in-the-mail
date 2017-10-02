@@ -27,6 +27,20 @@ h1,h2,h3,h4,h5,h6,h7{
     
 }
 
+.check-comparison{
+    padding: 4px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    /* border-bottom: 1px solid gray; */
+}
+
+.check-comparison:nth-child(even){
+    background-color: #efefef;
+}
+
 @media(max-width: 599px){
     .check{
 	width: 100%;
