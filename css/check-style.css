@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700');
+
+
+h1,h2,h3,h4,h5,h6,h7{
+    font-family: 'Lato', sans-serif;    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.check{
+    width: 48%;
+    min-height: 200px;
+    min-width: 300px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 3px;
+    float: left;
+    padding: 4px;
+    background-color: #efefef;
+    border: 3px double black;
+    box-shadow: 1px 1px 10px #888;
+
+    background-image:url("../img/bg-capitol.jpg");
+    background-size:cover;
+    
+}
+
+@media(max-width: 599px){
+    .check{
+	width: 100%;
+	max-width: 100%;
+    }
+}
+.check-field .check-label{
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size:small;
+    margin-right: 1em;
+    padding: 1px;
+}
+
+/* .check-field .check-label .check-label-right{ */
+/*     float: right; */
+/*     margin-left: 1m; */
+/* } */
+
+.less .check-field{
+    color: maroon;
+}
+
+.check-field{
+    color: mediumblue;
+    font-family: monaco, Consolas, "Lucida Console", monospace;    
+    /* border: 1px solid forestgreen; */
+    background-color: #fefefe;
+    float: left;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    /* margin: 4px; */
+}
+
+.date-box,
+.amount-numeric-box,
+.signature-box{
+    float:right;
+}
+
+.date-box,
+.amount-numeric-box{
+    min-width: 40%;
+}
+
+.pay-to-box,
+.amount-spelled-box{
+    width: 100%;
+    
+}
+
+.memo-box{
+    float: left;
+}
+
+.signature-box{
+    text-align: right;
+    height: 2.5em;
+}
+
+.signature-box img{
+    height: 2.5em;
+}
+
+
+.clear-both{
+    clear:both;
+}
